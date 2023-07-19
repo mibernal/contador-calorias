@@ -1,0 +1,10 @@
+<ion-app>
+  <ion-router-outlet>
+    <ion-menu-toggle auto-hide="false" *ngIf="appPages">
+      <ion-item *ngFor="let appPage of appPages" [routerLink]="appPage.url" routerDirection="root">
+        <ion-icon [name]="appPage.icon" slot="start"></ion-icon>
+        <ion-label>{{ appPage.title }}</ion-label>
+      </ion-item>
+    </ion-menu-toggle>    
+  </ion-router-outlet>
+</ion-app>

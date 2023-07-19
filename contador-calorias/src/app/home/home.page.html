@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="home-container">
+    <div class="title">
+      Bienvenido a la aplicación de Contador de Calorías
+    </div>
+    <div class="subtitle">
+      ¡Comienza a realizar un seguimiento de tu ingesta diaria de calorías y alcanza tus objetivos de salud y fitness!
+    </div>
+    <div class="button-container">
+      <ion-button expand="full" (click)="goToCalculadora()">Ir a la Calculadora</ion-button>
+      <ion-button expand="full" color="secondary" (click)="goToListaComidas()">Ver Lista de Comidas</ion-button>
+    </div>
+  </div>
+</ion-content>

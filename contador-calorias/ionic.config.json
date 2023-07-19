@@ -1,0 +1,7 @@
+{
+  "name": "contador-calorias",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
