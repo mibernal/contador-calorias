@@ -1,0 +1,121 @@
+.the_champ_button_instagram span.the_champ_svg,
+a.the_champ_instagram span.the_champ_svg {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.the_champ_horizontal_sharing .the_champ_svg,
+.heateor_ss_standard_follow_icons_container .the_champ_svg {
+  color: #fff;
+  border-width: 0px;
+  border-style: solid;
+  border-color: transparent;
+}
+.the_champ_horizontal_sharing .theChampTCBackground {
+  color: #666;
+}
+.the_champ_horizontal_sharing span.the_champ_svg:hover,
+.heateor_ss_standard_follow_icons_container span.the_champ_svg:hover {
+  border-color: transparent;
+}
+.the_champ_vertical_sharing span.the_champ_svg,
+.heateor_ss_floating_follow_icons_container span.the_champ_svg {
+  color: #fff;
+  border-width: 0px;
+  border-style: solid;
+  border-color: transparent;
+}
+.the_champ_vertical_sharing .theChampTCBackground {
+  color: #666;
+}
+.the_champ_vertical_sharing span.the_champ_svg:hover,
+.heateor_ss_floating_follow_icons_container span.the_champ_svg:hover {
+  border-color: transparent;
+}
+@media screen and (max-width: 783px) {
+  .the_champ_vertical_sharing {
+    display: none !important;
+  }
+}
+div.heateor_ss_mobile_footer {
+  display: none;
+}
+@media screen and (max-width: 783px) {
+  div.the_champ_bottom_sharing
+    div.the_champ_sharing_ul
+    .theChampTCBackground {
+    width: 100% !important;
+    background-color: white;
+  }
+  div.the_champ_bottom_sharing {
+    width: 100% !important;
+    left: 0 !important;
+  }
+  div.the_champ_bottom_sharing a {
+    width: 11.111111111111% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  div.the_champ_bottom_sharing .the_champ_svg {
+    width: 100% !important;
+  }
+  div.the_champ_bottom_sharing div.theChampTotalShareCount {
+    font-size: 0.7em !important;
+    line-height: 28px !important;
+  }
+  div.the_champ_bottom_sharing div.theChampTotalShareText {
+    font-size: 0.5em !important;
+    line-height: 0px !important;
+  }
+  div.heateor_ss_mobile_footer {
+    display: block;
+    height: 40px;
+  }
+  .the_champ_bottom_sharing {
+    padding: 0 !important;
+    display: block !important;
+    width: auto !important;
+    bottom: -2px !important;
+    top: auto !important;
+  }
+  .the_champ_bottom_sharing .the_champ_square_count {
+    line-height: inherit;
+  }
+  .the_champ_bottom_sharing .theChampSharingArrow {
+    display: none;
+  }
+  .the_champ_bottom_sharing .theChampTCBackground {
+    margin-right: 1.1em !important;
+  }
+}
+div.the_champ_social_login_title,
+div.the_champ_login_container {
+  text-align: center;
+}
+ul.the_champ_login_ul {
+  width: 100%;
+  text-align: center;
+}
+div.the_champ_login_container ul.the_champ_login_ul li {
+  float: none !important;
+  display: inline-block;
+}
+
+#gap-145783075 {
+  padding-top: 10px;
+}
+
+#image_1851879257 {
+  width: 100%;
+}
+
+#image_1032615297 {
+  width: 100%;
+}
+
+
